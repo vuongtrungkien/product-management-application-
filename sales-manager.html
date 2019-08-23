@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sales Manager</title>
+    <link rel="stylesheet" href="css.css">
+
+
+</head>
+<body>
+<div class="header">
+    <div>
+    <h3>Enter name product</h3>
+    <input type="text" id="input" onclick="this.value = ''"/>
+    <input id="addData" type="button" onclick="manage.buttonAdd(input.name())" value="ADD"/>
+    </div>
+</div>
+
+<div class="display">
+    <ul id="listProduct">
+
+    </ul>
+</div>
+<script src="input.js"></script>
+<script src="product.js"></script>
+<script src="manage.js"></script>
+<script src="display.js"></script>
+
+</body>
+</html>
